@@ -1,9 +1,9 @@
 {
-	"name": "meteor_extjs",
+	"name": "mextjs",
 	"description": "Loads extjs 4.2.0 library",
-	"homepage": "https://github.com/ciokan/meteor_extjs",
+	"homepage": "https://github.com/ciokan/mextjs",
 	"author": "Mihalcea Romeo  (http://www.dockify.io)",
 	"version": "0.1.0",
-	"git": "https://github.com/ciokan/meteor_extjs",
+	"git": "https://github.com/ciokan/mextjs",
 	"packages": {}
 }

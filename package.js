@@ -3,6 +3,5 @@ Package.describe({
 });
 
 Package.on_use(function (api){
-	if (api.export) api.export('meteor_extjs');
 	api.add_files(['resources/ext-all.css', 'resources/ext-all.js'], 'client');
 });
