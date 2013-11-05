@@ -3,5 +3,6 @@ Package.describe({
 });
 
 Package.on_use(function (api){
-	api.add_files(['resources/ext-all.css', 'resources/ext-all.js'], 'client');
+	api.add_files('ext-all.js', 'client');
+	api.add_files('ext-all.css', 'client');
 });
