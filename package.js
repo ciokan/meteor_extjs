@@ -3,6 +3,9 @@ Package.describe({
 });
 
 Package.on_use(function (api){
+	if (api.export) {
+		api.export('mextjs');
+	}
 	api.add_files('ext-all.js', 'client');
 	api.add_files('ext-all.css', 'client');
 });
